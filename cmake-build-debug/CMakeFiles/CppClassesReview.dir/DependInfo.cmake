@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Cochr/CLionProjects/CppClassesReview/main.cpp" "C:/Users/Cochr/CLionProjects/CppClassesReview/cmake-build-debug/CMakeFiles/CppClassesReview.dir/main.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppClassesReview/FracMain.cpp" "C:/Users/Cochr/CLionProjects/CppClassesReview/cmake-build-debug/CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppClassesReview/Fract.cpp" "C:/Users/Cochr/CLionProjects/CppClassesReview/cmake-build-debug/CMakeFiles/CppClassesReview.dir/Fract.cpp.obj"
+  "C:/Users/Cochr/CLionProjects/CppClassesReview/fraction.cpp" "C:/Users/Cochr/CLionProjects/CppClassesReview/cmake-build-debug/CMakeFiles/CppClassesReview.dir/fraction.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

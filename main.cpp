@@ -1,6 +1,9 @@
 #include <iostream>
-
+#include "Fract.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    
+    Fract f(1);
+    
+    std::cout << f.getNum() << std::endl;
     return 0;
 }

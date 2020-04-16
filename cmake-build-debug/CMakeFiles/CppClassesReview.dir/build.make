@@ -56,32 +56,62 @@ include CMakeFiles/CppClassesReview.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppClassesReview.dir/flags.make
 
-CMakeFiles/CppClassesReview.dir/main.cpp.obj: CMakeFiles/CppClassesReview.dir/flags.make
-CMakeFiles/CppClassesReview.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppClassesReview.dir/main.cpp.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppClassesReview.dir\main.cpp.obj -c C:\Users\Cochr\CLionProjects\CppClassesReview\main.cpp
+CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj: CMakeFiles/CppClassesReview.dir/flags.make
+CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj: ../FracMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppClassesReview.dir\FracMain.cpp.obj -c C:\Users\Cochr\CLionProjects\CppClassesReview\FracMain.cpp
 
-CMakeFiles/CppClassesReview.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppClassesReview.dir/main.cpp.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppClassesReview\main.cpp > CMakeFiles\CppClassesReview.dir\main.cpp.i
+CMakeFiles/CppClassesReview.dir/FracMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppClassesReview.dir/FracMain.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppClassesReview\FracMain.cpp > CMakeFiles\CppClassesReview.dir\FracMain.cpp.i
 
-CMakeFiles/CppClassesReview.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppClassesReview.dir/main.cpp.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppClassesReview\main.cpp -o CMakeFiles\CppClassesReview.dir\main.cpp.s
+CMakeFiles/CppClassesReview.dir/FracMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppClassesReview.dir/FracMain.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppClassesReview\FracMain.cpp -o CMakeFiles\CppClassesReview.dir\FracMain.cpp.s
+
+CMakeFiles/CppClassesReview.dir/fraction.cpp.obj: CMakeFiles/CppClassesReview.dir/flags.make
+CMakeFiles/CppClassesReview.dir/fraction.cpp.obj: ../fraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppClassesReview.dir/fraction.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppClassesReview.dir\fraction.cpp.obj -c C:\Users\Cochr\CLionProjects\CppClassesReview\fraction.cpp
+
+CMakeFiles/CppClassesReview.dir/fraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppClassesReview.dir/fraction.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppClassesReview\fraction.cpp > CMakeFiles\CppClassesReview.dir\fraction.cpp.i
+
+CMakeFiles/CppClassesReview.dir/fraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppClassesReview.dir/fraction.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppClassesReview\fraction.cpp -o CMakeFiles\CppClassesReview.dir\fraction.cpp.s
+
+CMakeFiles/CppClassesReview.dir/Fract.cpp.obj: CMakeFiles/CppClassesReview.dir/flags.make
+CMakeFiles/CppClassesReview.dir/Fract.cpp.obj: ../Fract.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppClassesReview.dir/Fract.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CppClassesReview.dir\Fract.cpp.obj -c C:\Users\Cochr\CLionProjects\CppClassesReview\Fract.cpp
+
+CMakeFiles/CppClassesReview.dir/Fract.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppClassesReview.dir/Fract.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Cochr\CLionProjects\CppClassesReview\Fract.cpp > CMakeFiles\CppClassesReview.dir\Fract.cpp.i
+
+CMakeFiles/CppClassesReview.dir/Fract.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppClassesReview.dir/Fract.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Cochr\CLionProjects\CppClassesReview\Fract.cpp -o CMakeFiles\CppClassesReview.dir\Fract.cpp.s
 
 # Object files for target CppClassesReview
 CppClassesReview_OBJECTS = \
-"CMakeFiles/CppClassesReview.dir/main.cpp.obj"
+"CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj" \
+"CMakeFiles/CppClassesReview.dir/fraction.cpp.obj" \
+"CMakeFiles/CppClassesReview.dir/Fract.cpp.obj"
 
 # External object files for target CppClassesReview
 CppClassesReview_EXTERNAL_OBJECTS =
 
-CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/main.cpp.obj
+CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj
+CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/fraction.cpp.obj
+CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/Fract.cpp.obj
 CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/build.make
 CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/linklibs.rsp
 CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/objects1.rsp
 CppClassesReview.exe: CMakeFiles/CppClassesReview.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppClassesReview.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Cochr\CLionProjects\CppClassesReview\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CppClassesReview.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CppClassesReview.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -3,4 +3,5 @@ project(CppClassesReview)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CppClassesReview main.cpp)
+add_executable(CppClassesReview FracMain.cpp fraction.cpp Fract.cpp Fract.h)
+

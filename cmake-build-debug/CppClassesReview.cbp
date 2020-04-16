@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/main.cpp">
+		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/FracMain.cpp">
+			<Option target="CppClassesReview"/>
+		</Unit>
+		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/Fract.cpp">
+			<Option target="CppClassesReview"/>
+		</Unit>
+		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/Fract.h">
+			<Option target="CppClassesReview"/>
+		</Unit>
+		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/fraction.cpp">
+			<Option target="CppClassesReview"/>
+		</Unit>
+		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/fraction.h">
 			<Option target="CppClassesReview"/>
 		</Unit>
 		<Unit filename="C:/Users/Cochr/CLionProjects/CppClassesReview/CMakeLists.txt">

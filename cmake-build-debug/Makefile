@@ -122,32 +122,86 @@ CppClassesReview/fast:
 	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/build
 .PHONY : CppClassesReview/fast
 
-main.obj: main.cpp.obj
+FracMain.obj: FracMain.cpp.obj
 
-.PHONY : main.obj
+.PHONY : FracMain.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+FracMain.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/FracMain.cpp.obj
+.PHONY : FracMain.cpp.obj
 
-main.i: main.cpp.i
+FracMain.i: FracMain.cpp.i
 
-.PHONY : main.i
+.PHONY : FracMain.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/main.cpp.i
-.PHONY : main.cpp.i
+FracMain.cpp.i:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/FracMain.cpp.i
+.PHONY : FracMain.cpp.i
 
-main.s: main.cpp.s
+FracMain.s: FracMain.cpp.s
 
-.PHONY : main.s
+.PHONY : FracMain.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/main.cpp.s
-.PHONY : main.cpp.s
+FracMain.cpp.s:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/FracMain.cpp.s
+.PHONY : FracMain.cpp.s
+
+Fract.obj: Fract.cpp.obj
+
+.PHONY : Fract.obj
+
+# target to build an object file
+Fract.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/Fract.cpp.obj
+.PHONY : Fract.cpp.obj
+
+Fract.i: Fract.cpp.i
+
+.PHONY : Fract.i
+
+# target to preprocess a source file
+Fract.cpp.i:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/Fract.cpp.i
+.PHONY : Fract.cpp.i
+
+Fract.s: Fract.cpp.s
+
+.PHONY : Fract.s
+
+# target to generate assembly for a file
+Fract.cpp.s:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/Fract.cpp.s
+.PHONY : Fract.cpp.s
+
+fraction.obj: fraction.cpp.obj
+
+.PHONY : fraction.obj
+
+# target to build an object file
+fraction.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/fraction.cpp.obj
+.PHONY : fraction.cpp.obj
+
+fraction.i: fraction.cpp.i
+
+.PHONY : fraction.i
+
+# target to preprocess a source file
+fraction.cpp.i:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/fraction.cpp.i
+.PHONY : fraction.cpp.i
+
+fraction.s: fraction.cpp.s
+
+.PHONY : fraction.s
+
+# target to generate assembly for a file
+fraction.cpp.s:
+	$(MAKE) -f CMakeFiles\CppClassesReview.dir\build.make CMakeFiles/CppClassesReview.dir/fraction.cpp.s
+.PHONY : fraction.cpp.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... CppClassesReview
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... FracMain.obj
+	@echo ... FracMain.i
+	@echo ... FracMain.s
+	@echo ... Fract.obj
+	@echo ... Fract.i
+	@echo ... Fract.s
+	@echo ... fraction.obj
+	@echo ... fraction.i
+	@echo ... fraction.s
 .PHONY : help
 
 
