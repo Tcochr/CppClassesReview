@@ -10,8 +10,36 @@ using namespace std;
 Fraction::Fraction(int nmr, int dnr) {
     nr = nmr;
     dr = dnr;
+    reduce();
 }
 
+Fraction::Fraction(int num){
+    nr = num;
+    dr = 1;
+    reduce();
+}
+
+Fraction::Fraction(){
+    dr = 1;
+    nr = 0;
+}
+
+//deconstruct decimal value into a fraction
+// 3.31 -> 33.1/1 -> 431/100
+Fraction::Fraction(double dec){
+    int numr = (int)(dec);
+    int denr = 1;
+
+    while(abs(dec-numr) > 0.000001){
+        cout << dec << " - " << numr << ":  " << (dec-numr) << endl;
+        dec *= 10;
+        numr = (int)(dec);
+        denr *=10;
+    }
+    nr = numr;
+    dr = denr;
+    reduce();
+}
 //define the accessors
 int Fraction::getNr() {
     return nr;
@@ -65,4 +93,21 @@ Fraction &operator/(Fraction &ls, Fraction &rs){
 
 ostream &operator<< (ostream &out, Fraction &rhs){
     out << rhs.getNr() << "/" << rhs.getDr();
+}
+
+//obtaining the gcd via euclidean algorithm
+// (24,54) -> (54,24) -> (24,6) -> (6,0)
+int Fraction::gcd(int a, int b){
+    if(b == 0)
+        return a;
+    else{
+        cout << "gcd: " << "(" << b << " , " << a%b << ")" << endl;
+        return gcd(b,a%b);
+    }
+}
+
+void Fraction::reduce(){
+    int GCD = gcd(nr,dr);
+    nr /= GCD;
+    dr /= GCD;
 }

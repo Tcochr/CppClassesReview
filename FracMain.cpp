@@ -11,15 +11,10 @@ using namespace std;
 int main(){
     Fraction fA(1,4);
     Fraction fB(1,3);
+    Fraction f1(1.618);
+    Fraction f2(9);
+    cout << f2 << endl;
+    cout << f1 << endl;
 
-    Fraction fC = fA + fB;
-    cout << fC.getDecVal() << endl;
-
-    Fraction fD = fA/fB;
-    cout << fD.getDecVal() << endl;
-
-    Fraction fE = fA-fB;
-    cout << fE.getDecVal() << endl;
-    cout << fE << endl;
     return 0;
 }
