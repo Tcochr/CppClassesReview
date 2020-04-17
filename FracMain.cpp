@@ -12,10 +12,14 @@ int main(){
     Fraction fA(1,4);
     Fraction fB(1,3);
 
-    cout << fA.getNr() << "/" << fB.getDr() << endl;
-    fA.setNr(2);
-    fA.setDr(3);
-    cout << fA.getNr() << "/" << fB.getDr() << endl;
+    Fraction fC = fA + fB;
+    cout << fC.getDecVal() << endl;
 
+    Fraction fD = fA/fB;
+    cout << fD.getDecVal() << endl;
+
+    Fraction fE = fA-fB;
+    cout << fE.getDecVal() << endl;
+    cout << fE << endl;
     return 0;
 }
